@@ -1,6 +1,6 @@
 # 3D Math Charts
 
-An interactive web application for visualizing mathematical functions as 3D surfaces. Enter any formula z = f(x, y) and see it rendered in real-time.
+An interactive vibe-coded web application for visualizing mathematical functions as 3D surfaces. Enter any formula z = f(x, y) and see it rendered in real-time.
 
 ## Features
 
@@ -61,6 +61,3 @@ sin(x*x + y*y) / (x*x + y*y)  # Sinc
 - [Three.js](https://threejs.org/) (r128) - 3D graphics
 - [KaTeX](https://katex.org/) (0.16.9) - LaTeX rendering
 
-## License
-
-MIT
