@@ -352,6 +352,25 @@ body {
     padding: 10px 14px;
     border-radius: 8px;
     border: 1px solid var(--border);
+    z-index: 10;
+}
+
+.formula-overlay {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    font-size: 12px;
+    color: var(--text-secondary);
+    background: var(--bg-secondary);
+    padding: 10px 14px;
+    border-radius: 8px;
+    border: 1px solid var(--border);
+    z-index: 10;
+}
+
+.formula-overlay .katex {
+    font-size: 1.1em;
+    color: var(--text-primary);
 }
 
 .error-toast {
@@ -482,6 +501,12 @@ body {
         font-size: 11px;
         padding: 8px 12px;
     }
+    .formula-overlay {
+        top: 12px;
+        left: 12px;
+        font-size: 11px;
+        padding: 8px 12px;
+    }
 }
 
 /* Phone breakpoint */
@@ -560,8 +585,14 @@ body {
     .controls-hint {
         bottom: 8px;
         left: 8px;
-        right: 8px;
+        right: auto;
         text-align: center;
+        font-size: 10px;
+        padding: 6px 10px;
+    }
+    .formula-overlay {
+        top: 8px;
+        left: 8px;
         font-size: 10px;
         padding: 6px 10px;
     }

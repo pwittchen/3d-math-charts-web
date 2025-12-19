@@ -257,16 +257,16 @@ function formulaToTeX(formula) {
 
 function updateFormulaPreview() {
     const formula = document.getElementById('formula-input').value;
-    const preview = document.getElementById('formula-preview');
+    const overlay = document.getElementById('formula-overlay');
 
     try {
         const tex = `z = ${formulaToTeX(formula)}`;
-        katex.render(tex, preview, {
+        katex.render(tex, overlay, {
             throwOnError: false,
-            displayMode: true
+            displayMode: false
         });
     } catch (e) {
-        preview.textContent = formula;
+        overlay.textContent = `z = ${formula}`;
     }
 }
 
