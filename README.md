@@ -46,7 +46,7 @@ python3 -m http.server 8000
 
 ```
 sin(sqrt(x*x + y*y))          # Ripple
-x*x - y*y                      # Saddle
+x*x - y*y                     # Saddle
 exp(-(x*x + y*y))             # Gaussian
 sin(x) * cos(y)               # Egg Carton
 sin(x*x + y*y) / (x*x + y*y)  # Sinc
