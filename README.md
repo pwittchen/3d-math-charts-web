@@ -2,7 +2,7 @@
 
 **[Live Demo](https://pwittchen.github.io/3d-math-charts-web/)**
 
-An interactive vibe-coded web application for visualizing mathematical functions as 3D surfaces. Enter any formula z = f(x, y) and see it rendered in real-time.
+An interactive vibe-coded web application for visualizing mathematical functions as 3D surfaces. Enter any formula `z = f(x, y)` and see it rendered in real-time.
 
 ## Features
 
